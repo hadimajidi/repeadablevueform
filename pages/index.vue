@@ -23,7 +23,7 @@
           <tbody>
             <tr v-for="(row, rowKey) in rows" :key="rowKey">
               <td class="border border-slate-700 text-center p-1">
-                <input v-model="row.work_name" placeholder="Work Name" type="text" class="p-1 w-100 w-full shadow"/>
+                <input v-model="row.workName" placeholder="Work Name" type="text" class="p-1 w-100 w-full shadow"/>
               </td>
               <td class="border border-slate-700 text-center p-1">
                 <input v-model="row.id" placeholder="ID" type="text" class="p-1 w-100 w-full shadow"/>
